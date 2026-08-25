@@ -1,2 +1,6 @@
 #### [[QA Foundations]]
 ### [[Test Types]]
+### [[Selenium vs Playwright]]
+### [[Java Selenium]]
+### [[Java Playwright]]
+### [[JS Playwright]]
