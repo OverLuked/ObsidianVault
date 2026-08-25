@@ -1,4 +1,3 @@
-
 ## What is QA Testing?
 - Systematic Process of ensuring software applications meet specified requirements and functions correctly before reaching the stake holders or end Users
 ### Key Responsibilities
