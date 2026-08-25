@@ -1,14 +1,12 @@
-# QA
-[[QA Foundations]]
-[[Test Types]]
+### [[QA]]
+- [[QA Foundations]]
+- [[Test Types]]
+- 
+### [[Dev]]
+- [[Dev Foundations]]
 
-
-# DevOps
-
-
-# Dev
-
-
+### [[Devops]]
+- [[DevOps Foundation]]
 
 
 
