@@ -5,31 +5,31 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:ObsidianVault/QA  ",
+      "query": "path:QA  ",
       "color": {
         "a": 1,
         "rgb": 14701261
       }
     },
     {
-      "query": "path:ObsidianVault/DevOps  ",
+      "query": "path:DevOps  ",
       "color": {
         "a": 1,
         "rgb": 6443744
       }
     },
     {
-      "query": "path:ObsidianVault/Dev  ",
+      "query": "path:Dev",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -39,6 +39,6 @@
   "repelStrength": 9.26203428102227,
   "linkStrength": 0.495484272812208,
   "linkDistance": 500,
-  "scale": 0.7625075410877564,
-  "close": false
+  "scale": 0.639615218836082,
+  "close": true
 }

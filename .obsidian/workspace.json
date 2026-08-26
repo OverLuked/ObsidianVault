@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "13cf4480ddba7050",
+        "id": "d1a26abe1f6d762e",
         "type": "tabs",
         "children": [
           {
-            "id": "9177e91e9c74757d",
+            "id": "d8cbb9e521d5ae6c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "QA/QA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "QA"
             }
           }
         ]
@@ -155,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ObsidianVault/Career Review.md",
+                "file": "QA/QA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -163,14 +167,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "9177e91e9c74757d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 510.36328125,
-    "collapsed": true
+    "width": 992.008544921875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,43 +197,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9177e91e9c74757d",
+  "active": "d8cbb9e521d5ae6c",
   "lastOpenFiles": [
-    "ObsidianVault/Career Review.md",
-    "ObsidianVault/QA/QA.md",
-    "ObsidianVault/QA/API Testing.md",
-    "ObsidianVault/QA/Test Design Techniques.md",
-    "ObsidianVault/QA/Test Types.md",
-    "ObsidianVault/QA/Selenium vs Playwright.md",
     "ObsidianVault/QA/QA Foundations.md",
-    "ObsidianVault/QA/JS Playwright.md",
-    "ObsidianVault/QA/Java Selenium.md",
-    "ObsidianVault/QA/Java Playwright.md",
-    "ObsidianVault/QA/Defect Management.md",
+    "QA/QA.md",
     "ObsidianVault/QA",
-    "ObsidianVault/DevOps/Monitoring and Observability.md",
-    "ObsidianVault/DevOps/DevOps.md",
-    "ObsidianVault/DevOps/DevOps Foundation.md",
-    "ObsidianVault/DevOps/Containers and Orchestration.md",
-    "ObsidianVault/DevOps/Cloud and Infrastructure as Code.md",
-    "ObsidianVault/DevOps/CI-CD Pipelines.md",
-    "ObsidianVault/DevOps",
-    "ObsidianVault/Dev/System Design Basics.md",
-    "ObsidianVault/Dev/SQL.md",
-    "ObsidianVault/Dev/OOP and SOLID Principles.md",
-    "ObsidianVault/Dev/Git Commands.md",
-    "ObsidianVault/Dev/Dev.md",
-    "ObsidianVault/Dev/Dev Foundations.md",
-    "ObsidianVault/Dev/Data Structures and Algorithms.md",
-    "ObsidianVault/Dev",
     "ObsidianVault",
+    "Career Review.md",
+    "QA/QA Foundations.md",
+    "DevOps/Cloud and Infrastructure as Code.md",
+    "ObsidianVault/DevOps/CI-CD Pipelines.md",
+    "DevOps/CI-CD Pipelines.md",
+    "ObsidianVault/DevOps",
+    "Dev/Dev.md",
+    "Dev/Data Structures and Algorithms.md",
+    "QA/Test Types.md",
+    "QA/Test Design Techniques.md",
+    "QA/Selenium vs Playwright.md",
+    "QA/JS Playwright.md",
+    "QA/Java Playwright.md",
+    "QA/Java Selenium.md",
+    "QA/Defect Management.md",
+    "QA",
+    "DevOps/DevOps Foundation.md",
+    "DevOps/DevOps.md",
+    "DevOps/Monitoring and Observability.md",
+    "DevOps/Containers and Orchestration.md",
+    "DevOps",
+    "Dev/Dev Foundations.md",
+    "Dev/Git Commands.md",
+    "Dev/System Design Basics.md",
+    "Dev/SQL.md",
+    "Dev/OOP and SOLID Principles.md",
+    "Dev",
+    "ObsidianVault/Dev",
     "CareerReview",
-    "ObsidianVault/API Testing.md",
     "ObsidianVault/QA/QA Foundations.md.tmp.30140.79f7a8c80e7e",
-    "ObsidianVault/QA/Test Types.md.tmp.30140.06c06a7031e9",
-    "ObsidianVault/CLAUDE.md",
-    "ObsidianVault/Dev/Dev.md.tmp.5684.df1726025af4",
-    "ObsidianVault/QA/Java Playwright.md.tmp.5684.044594851f1a",
-    "ObsidianVault/QA/Selenium Java Syntax.md.tmp.5684.80c45100f256"
+    "ObsidianVault/QA/Test Types.md.tmp.30140.06c06a7031e9"
   ]
 }
