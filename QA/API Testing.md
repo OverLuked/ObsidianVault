@@ -80,15 +80,15 @@ X-Request-Id: abc-123
 
 ### HTTP methods
 
-| Method | Purpose | Has body? | Safe? | Idempotent? |
-|---|---|---|---|---|
-| `GET` | Read a resource | No | Yes | Yes |
-| `POST` | Create a resource | Yes | No | **No** |
-| `PUT` | Replace a resource entirely | Yes | No | Yes |
-| `PATCH` | Update part of a resource | Yes | No | Not necessarily |
-| `DELETE` | Remove a resource | Usually no | No | Yes |
-| `HEAD` | Like GET, headers only | No | Yes | Yes |
-| `OPTIONS` | What methods are allowed | No | Yes | Yes |
+| Method    | Purpose                     | Has body?  | Safe? | Idempotent?     |
+| --------- | --------------------------- | ---------- | ----- | --------------- |
+| `GET`     | Read a resource             | No         | Yes   | Yes             |
+| `POST`    | Create a resource           | Yes        | No    | **No**          |
+| `PUT`     | Replace a resource entirely | Yes        | No    | Yes             |
+| `PATCH`   | Update part of a resource   | Yes        | No    | Not necessarily |
+| `DELETE`  | Remove a resource           | Usually no | No    | Yes             |
+| `HEAD`    | Like GET, headers only      | No         | Yes   | Yes             |
+| `OPTIONS` | What methods are allowed    | No         | Yes   | Yes             |
 
 **Safe** = does not change server state. **Idempotent** = calling it 5 times has the same effect as calling it once.
 
