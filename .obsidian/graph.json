@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:ObsidianVault/QA  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701261
+      }
+    },
+    {
+      "query": "path:ObsidianVault/DevOps  ",
+      "color": {
+        "a": 1,
+        "rgb": 6443744
+      }
+    },
+    {
+      "query": "path:ObsidianVault/Dev  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1.85420301755106,
+  "collapse-forces": false,
+  "centerStrength": 0.482808169968182,
+  "repelStrength": 9.26203428102227,
+  "linkStrength": 0.495484272812208,
+  "linkDistance": 500,
+  "scale": 0.7625075410877564,
+  "close": false
+}

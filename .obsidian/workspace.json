@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "3e97a35952be2df9",
+    "type": "split",
+    "children": [
+      {
+        "id": "13cf4480ddba7050",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9177e91e9c74757d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65ac34f04220bc64",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b9d45d34128840f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4ad8e7fe0967610",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8496a696dc2442de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "42da1ce6777251a0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "5da5d2136ed659e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a6dc7fe2074c0ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1d25f5421215f77",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "29220667905fbe2a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "821690ea225055bc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "200fcb553bbcadd8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "29f8d5c74451d943",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ObsidianVault/Career Review.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 510.36328125,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "9177e91e9c74757d",
+  "lastOpenFiles": [
+    "ObsidianVault/Career Review.md",
+    "ObsidianVault/QA/QA.md",
+    "ObsidianVault/QA/API Testing.md",
+    "ObsidianVault/QA/Test Design Techniques.md",
+    "ObsidianVault/QA/Test Types.md",
+    "ObsidianVault/QA/Selenium vs Playwright.md",
+    "ObsidianVault/QA/QA Foundations.md",
+    "ObsidianVault/QA/JS Playwright.md",
+    "ObsidianVault/QA/Java Selenium.md",
+    "ObsidianVault/QA/Java Playwright.md",
+    "ObsidianVault/QA/Defect Management.md",
+    "ObsidianVault/QA",
+    "ObsidianVault/DevOps/Monitoring and Observability.md",
+    "ObsidianVault/DevOps/DevOps.md",
+    "ObsidianVault/DevOps/DevOps Foundation.md",
+    "ObsidianVault/DevOps/Containers and Orchestration.md",
+    "ObsidianVault/DevOps/Cloud and Infrastructure as Code.md",
+    "ObsidianVault/DevOps/CI-CD Pipelines.md",
+    "ObsidianVault/DevOps",
+    "ObsidianVault/Dev/System Design Basics.md",
+    "ObsidianVault/Dev/SQL.md",
+    "ObsidianVault/Dev/OOP and SOLID Principles.md",
+    "ObsidianVault/Dev/Git Commands.md",
+    "ObsidianVault/Dev/Dev.md",
+    "ObsidianVault/Dev/Dev Foundations.md",
+    "ObsidianVault/Dev/Data Structures and Algorithms.md",
+    "ObsidianVault/Dev",
+    "ObsidianVault",
+    "CareerReview",
+    "ObsidianVault/API Testing.md",
+    "ObsidianVault/QA/QA Foundations.md.tmp.30140.79f7a8c80e7e",
+    "ObsidianVault/QA/Test Types.md.tmp.30140.06c06a7031e9",
+    "ObsidianVault/CLAUDE.md",
+    "ObsidianVault/Dev/Dev.md.tmp.5684.df1726025af4",
+    "ObsidianVault/QA/Java Playwright.md.tmp.5684.044594851f1a",
+    "ObsidianVault/QA/Selenium Java Syntax.md.tmp.5684.80c45100f256"
+  ]
+}
