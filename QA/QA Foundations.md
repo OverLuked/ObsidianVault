@@ -274,4 +274,3 @@ flowchart TB
 | Clear Testing objectives       | No early prototypes             |
 | Higher quality deliverables    | High risk for complex projects  |
 
-

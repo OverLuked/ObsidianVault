@@ -1,7 +1,8 @@
 *Comparison of two leading tools for Automation Testing*
 
 ### Selenium
-*Long-standing open-source framework for browser automation*
+*Long-standing open-source framework for browser automation see [[Java Selenium]] for syntax and implementation*
+
 ##### Overview
 - Released in 2004, industry standard for many years
 - Uses WebDriver protocol to communicate with browsers
@@ -18,7 +19,7 @@
 - Weaker support for modern web features (Shadow DOM, iframes) out of the box
 
 ### Playwright
-*Modern automation framework built by Microsoft*
+*Modern automation framework built by Microsoft. see [[JS Playwright]] or [[Java Playwright]]* *for syntax and implementation*
 ##### Overview
 - Released in 2020
 - Communicates directly with browsers via native automation protocols (no WebDriver)

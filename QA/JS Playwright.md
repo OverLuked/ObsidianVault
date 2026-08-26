@@ -1,5 +1,7 @@
 ## Playwright with JavaScript
-*Syntax reference from setup through running test suites*
+*Syntax reference from setup through running test suites*> 
+> *See [[Java Playwright]] for building playwright in Java*
+
 
 ### Project Setup
 ##### Quick Install

@@ -1,6 +1,6 @@
 ## Playwright with Java
 *Syntax reference from setup through running test suites*
-
+> *see [[JS Playwright]] for js implementation*
 ### Project Setup
 ##### Maven Dependencies (`pom.xml`)
 ```xml
