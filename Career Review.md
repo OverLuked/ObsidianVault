@@ -15,15 +15,11 @@
 > [[Java Playwright]] - *Playwright syntax reference (Java)*
 > [[JS Playwright]] - *Playwright syntax reference (JavaScript)*
 > [[API Testing]] - *SQL Syntax reference *
-
-  
-
 ## [[Dev]]
 *Dev foundations, Principles, and System Design*
 ### Foundations
 > [[Dev Foundations]] - *Core concepts every developer role expects*
 ### Core Concepts
-
 > [[Data Structures and Algorithms]] - *Big-O, data structures, and common interview problem patterns*
 > [[OOP and SOLID Principles]] - *Object-oriented design and SOLID principles*
 > [[System Design Basics]] - *Scalability, caching, and architecture trade-offs*
