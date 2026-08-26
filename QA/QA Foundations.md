@@ -42,7 +42,7 @@
 - helps Testers focus on high-risk and critical areas of Software
 - Supports better decision-making during test planning and execution
 
-## SDLC - `Software Develpoment Life Cycle`
+## SDLC - `Software Development Life Cycle`
 ### Waterfall Model
 1. Requirements
 2. Design
@@ -52,19 +52,13 @@
 6. Maintenance
 
 ### V-Model (Verification & Validation)
-- Testing at each Development Phase
-```
-Requirements    ->  User Acceptance Test
-System Design   ->  System Testing
-Detailed Design ->  Integration Testing
-Coding          ->  Unit Testing
-```
+- Testing at each Development Phase - full phase mapping and diagram in the `V-Model` section below
 
 ### Agile vs Waterfall
 
 | Agile                                     | Waterfall                              |
 | ----------------------------------------- | -------------------------------------- |
-| Testing through out the development cycle | Testing phase starts after develpoment |
+| Testing through out the development cycle | Testing phase starts after development |
 | Collaborative approach                    | Detailed documentation required        |
 | Iterative process                         | Sequential process                     |
 | High flexibility for changes              | Less flexibility for change            |
@@ -76,11 +70,11 @@ Coding          ->  Unit Testing
 	- Understanding requirements
 	- Identification of Testable Scenarios
 	#### Activities
-		- Analuze Functional & Non-Functional Requirements
+		- Analyze Functional & Non-Functional Requirements
 		- Identify Test Conditions
 		- Review Acceptance Criteria
 	#### Deliverables
-		- TEst Strategy Document
+		- Test Strategy Document
 		- Test Conditions
 		- Automation Feasibility Report
 		
@@ -128,7 +122,7 @@ Coding          ->  Unit Testing
 		- Defect reports
 		- Test logs
 6. Test Reporting
-	- Analyzation of results
+	- Analysis of results
 	- Creation of `test summary results`
 	#### Activities
 	- Evaluate Test completion criteria
@@ -143,17 +137,45 @@ Coding          ->  Unit Testing
 	#### Activities
 		- Document lessons learned
 		- Archive test artifacts
-		- Analuze process improbements
+		- Analyze process improvements
 	#### Deliverables
 		- Test closure report
 		- Best practices document
 		- Test artifacts archive
 
+## Test Documentation & Traceability
+
+##### Core Documents
+| Document              | Purpose                                                        |
+| ----------------------- | ------------------------------------------------------------------ |
+| Test Strategy           | High-level, project-wide approach to testing (usually one per org) |
+| Test Plan               | Scope, approach, resources, and schedule for a specific release/feature |
+| Test Case               | Step-by-step conditions and inputs to verify a specific behavior  |
+| Test Script             | The automated implementation of a test case                       |
+
+##### Requirement Traceability Matrix (RTM)
+*Maps each requirement to the test case(s) that verify it*
+- Confirms every requirement has test coverage - and flags coverage gaps before execution starts
+- Also traces a failed test back to the requirement and defect it's tied to
+
+| Requirement ID | Requirement            | Test Case ID        | Status |
+| ---------------- | ------------------------- | ---------------------- | -------- |
+| REQ_001           | User can register          | TC_REG_001, TC_REG_002 | Pass     |
+| REQ_002           | User can reset password     | TC_PWD_001              | Fail     |
+
+##### Entry & Exit Criteria
+- Entry Criteria -> conditions that must be met before a test phase can start (e.g. test environment ready, build deployed, test cases reviewed)
+- Exit Criteria -> conditions that must be met before a test phase can be considered complete (e.g. all planned test cases executed, no open critical defects, target coverage reached)
+
+## Defect Management
+*What happens once a test fails - see [[Defect Management]] for the full lifecycle, severity/priority, bug report anatomy, and defect metrics*
+- Every defect moves through a defined lifecycle from discovery to closure
+- Severity (technical impact) and Priority (urgency to fix) are tracked separately and don't always match
 
 ## Testing Levels
 
 #### Unit Testing
- *Smallest Testable Parts of an application
+*Smallest testable parts of an application*
 - Testing individual components or modules in isolation
 ##### Characteristics
 - Test individual functions/methods
@@ -164,11 +186,11 @@ Coding          ->  Unit Testing
 - Uses mocks/stubs for dependencies
 
 #### Integration Testing
-*Testable Interaction between components or systems
+*Tests interaction between components or systems*
 - Testing the interfaces and interaction between integrated components or systems
 
 #### System Testing
-*Testable complete integrated system*
+*Tests the complete integrated system*
 - Testing the complete integrated system to verify it meets specified requirements
 
 ##### System Test Areas:
@@ -187,21 +209,26 @@ Coding          ->  Unit Testing
 - Performed before beta testing
 ##### Beta Testing
 - Performed by external users
-- Real-wolrd environment
+- Real-world environment
 - Limited user group
-#### Distribution of different types of tests in a project
+#### Test Automation Pyramid
+*Distribution of different types of tests in a project - more tests at the bottom, fewer (but broader) at the top*
+```mermaid
+flowchart TD
+    UI["UI Tests - 2%"]
+    Sys["System Tests - 8%"]
+    Int["Integration Tests - 20%"]
+    Unit["Unit Tests - 70%"]
+    UI --> Sys --> Int --> Unit
 ```
-	 /	UI Tests (2%)      \
-	/  System Tests (8%)    \
-   / Integration Tests (20%) \
-  /    Unit Tests (70%)       \
-```
+- Bottom-heavy on purpose - unit tests are fastest and cheapest to run and maintain, while UI tests are slowest, most brittle, and most expensive
+- An inverted pyramid ("ice cream cone") - too many slow UI tests, too few unit tests - is a common anti-pattern
 
 ## V-Model  - `[Verification & Validation]`
 
 Extension of the waterfall model Where testing activities are planned in parallel corresponding to the development phases
 
-##### Verification(Left Side)
+##### Verification (Left Side)
 	- Static Testing activities
 	- Reviews and walkthroughs
 	- Document analysis
@@ -209,7 +236,7 @@ Extension of the waterfall model Where testing activities are planned in paralle
 ##### Validation (Right Side)
 	- Dynamic testing activities
 	- Actual test execution
-	- COde execution with test data
+	- Code execution with test data
 	- "Are we building the right product?"
 
 #### V-Model Phase Mapping
@@ -243,7 +270,7 @@ flowchart TB
 | Benefits                       | Disadvantages                   |
 | ------------------------------ | ------------------------------- |
 | Early test planning and design | Rigid and less flexible         |
-| Better defect prevention       | Difficult to accomodate changes |
+| Better defect prevention       | Difficult to accommodate changes |
 | Clear Testing objectives       | No early prototypes             |
 | Higher quality deliverables    | High risk for complex projects  |
 

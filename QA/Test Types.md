@@ -212,6 +212,7 @@ V(G) = Number of decision points + 1
 - Reliability
 - Security
 - Compatibility
+- Accessibility
 - Performance - see `Performance Testing` above
 
 ##### Security Testing
@@ -242,6 +243,49 @@ V(G) = Number of decision points + 1
 - MTTR - Mean Time To Recovery
 - Availability target (e.g. 99.9% uptime)
 - Failure rate threshold (e.g. < 0.1% of transactions)
+
+##### Accessibility Testing
+*Verifies the application is usable by people with disabilities*
+- Based on WCAG (Web Content Accessibility Guidelines) - Levels A, AA, AAA
+- Checks: keyboard-only navigation, screen reader compatibility, color contrast ratios, alt text on images, focus order
+- Tools: axe, WAVE, Lighthouse accessibility audit
+
+## Smoke, Sanity & Regression Testing
+*Three related but distinct checks run at different points in the release cycle*
+
+##### Smoke Testing
+*"Does the build even work?" - a quick, broad check run immediately after a new build*
+- Verifies critical functionality is intact enough to justify further testing
+- Shallow and wide - touches every major area briefly, not deeply
+- Example: can the app launch, log in, and load the homepage?
+- A failed smoke test blocks all further testing on that build
+
+##### Sanity Testing
+*"Does this specific fix/feature make sense?" - a narrow, focused check after a minor change or bug fix*
+- Deep and narrow - focuses only on the area affected by the change
+- Usually unscripted, performed quickly without formal test cases
+- Example: after fixing the "forgot password" bug, only that flow is sanity-checked
+
+##### Regression Testing
+*"Did this change break anything that used to work?" - re-running existing tests after a change*
+- Broad - covers previously working functionality across the application, not just the changed area
+- Often automated, since it's repeated on every build/release
+- Full vs Partial regression -> full re-runs the entire suite; partial targets areas related to the change (via impact analysis)
+
+##### Comparison
+
+| Aspect       | Smoke Testing               | Sanity Testing              | Regression Testing              |
+| -------------- | ------------------------------ | ------------------------------- | ----------------------------------- |
+| Scope           | Wide, shallow                    | Narrow, deep                      | Wide, deep                          |
+| When            | After every new build             | After a minor fix/change           | After any change, before release     |
+| Scripted?       | Usually scripted                  | Usually unscripted                 | Usually scripted/automated           |
+| Goal            | Is the build stable enough to test?| Does this specific fix work?       | Did anything else break?             |
+
+##### Re-testing vs Regression Testing
+*A classic interview distinction - they sound similar but check different things*
+- Re-testing (Confirmation Testing) -> re-running the exact failed test case to confirm a specific defect is now fixed
+- Regression Testing -> running other, unrelated tests to confirm the fix didn't break something else
+- Both typically happen together after a bug fix: re-test the fix itself, then regression-test around it
 
 ## API Testing
 *Testing the data exchange and business logic layer directly, without a UI*
@@ -355,6 +399,7 @@ V(G) = Number of decision points + 1
 - Boundary Value Analysis - test edge values
 - Decision Table Testing - test business rules
 - State Transition Testing - test state changes
+- Worked examples for each -> see [[Test Design Techniques]]
 
 ##### White Box Testing
 *Testing with full knowledge of internal code structure, logic, and design*
