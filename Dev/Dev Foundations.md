@@ -37,14 +37,85 @@
 ##### Encapsulation
 - Bundles data and the methods that operate on it into a single unit (class)
 - Restricts direct access to internal state (private fields, public methods)
+```java
+public class BankAccount {
+    private double balance; // hidden from outside access
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void deposit(double amount) {
+        if (amount > 0) balance += amount;
+    }
+}
+```
 ##### Abstraction
 - Hides complex implementation details behind a simple interface
+```java
+abstract class Shape {
+    abstract double area(); // callers don't need to know how each shape calculates this
+}
+
+class Circle extends Shape {
+    private double radius;
+
+    Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    double area() {
+        return Math.PI * radius * radius;
+    }
+}
+```
 ##### Inheritance
 - A class can inherit properties and behavior from a parent class
+```java
+class Animal {
+    void eat() {
+        System.out.println("This animal eats food");
+    }
+}
+
+class Dog extends Animal { // inherits eat()
+    void bark() {
+        System.out.println("Woof!");
+    }
+}
+```
 ##### Polymorphism
 - Objects of different classes can be used interchangeably through a common interface
 - Method Overloading -> same method name, different parameters (compile-time)
 - Method Overriding -> subclass redefines a parent method (runtime)
+```java
+class Animal {
+    void makeSound() {
+        System.out.println("Some generic sound");
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    void makeSound() { // overriding - resolved at runtime
+        System.out.println("Meow");
+    }
+}
+
+void printSound(Animal animal) {
+    animal.makeSound(); // works for Animal, Cat, or any other subclass
+}
+
+// Overloading - resolved at compile-time
+int add(int a, int b) {
+    return a + b;
+}
+
+double add(double a, double b) {
+    return a + b;
+}
+```
 - Full breakdown of SOLID principles and design patterns -> see [[OOP and SOLID Principles]]
 
 ## Data Structures & Algorithms

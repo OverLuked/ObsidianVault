@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QA/QA Foundations.md",
+                "file": "Dev/Dev Foundations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QA Foundations"
+              "title": "Dev Foundations"
             }
           }
         ]
@@ -203,14 +203,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e860a459ff5e9627",
+  "active": "c84a754899294149",
   "lastOpenFiles": [
+    "Dev/Git Commands.md",
+    "Dev/Dev.md",
+    "Dev/Data Structures and Algorithms.md",
+    "Dev/OOP and SOLID Principles.md",
     "QA/QA Foundations.md",
+    "DevOps/CI-CD Pipelines.md",
+    "QA/API Testing.md",
+    "Career Review.md",
+    "CLAUDE.md",
     "QA/Java Playwright.md",
     "Dev/Dev Foundations.md",
     "QA/Defect Management.md",
-    "QA/API Testing.md",
-    "Career Review.md",
     "DevOps/DevOps Foundation.md",
     "QA/QA.md",
     "ObsidianVault/QA/QA Foundations.md",
@@ -218,10 +224,7 @@
     "ObsidianVault",
     "DevOps/Cloud and Infrastructure as Code.md",
     "ObsidianVault/DevOps/CI-CD Pipelines.md",
-    "DevOps/CI-CD Pipelines.md",
     "ObsidianVault/DevOps",
-    "Dev/Dev.md",
-    "Dev/Data Structures and Algorithms.md",
     "QA/Test Types.md",
     "QA/Test Design Techniques.md",
     "QA/Selenium vs Playwright.md",
@@ -232,10 +235,7 @@
     "DevOps/Monitoring and Observability.md",
     "DevOps/Containers and Orchestration.md",
     "DevOps",
-    "Dev/Git Commands.md",
     "Dev/System Design Basics.md",
-    "Dev/SQL.md",
-    "Dev/OOP and SOLID Principles.md",
     "Dev",
     "ObsidianVault/Dev",
     "CareerReview",
