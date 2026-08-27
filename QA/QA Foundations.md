@@ -125,13 +125,13 @@
 	- Analysis of results
 	- Creation of `test summary results`
 	#### Activities
-	- Evaluate Test completion criteria
-	- Analyze metrics and coverage
-	- Prepare final report
+		- Evaluate Test completion criteria
+		- Analyze metrics and coverage
+		- Prepare final report
 	##### Deliverables
-	- Test Summary Report
-	- Test metrics
-	- Test coverage Report
+		- Test Summary Report
+		- Test metrics
+		- Test coverage Report
 7. Test Closure
 	- Document lessons learned and archive test artifacts
 	#### Activities

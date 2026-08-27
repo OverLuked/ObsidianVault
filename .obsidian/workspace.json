@@ -13,18 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QA/API Testing.md",
+                "file": "QA/QA Foundations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "API Testing"
+              "title": "QA Foundations"
             }
           }
         ]
       },
       {
-        "id": "5d051e973a6b4be3",
+        "id": "63514433fcac0528",
         "type": "tabs",
         "children": [
           {
@@ -205,15 +205,17 @@
   },
   "active": "e860a459ff5e9627",
   "lastOpenFiles": [
+    "QA/QA Foundations.md",
+    "QA/Java Playwright.md",
+    "Dev/Dev Foundations.md",
+    "QA/Defect Management.md",
     "QA/API Testing.md",
     "Career Review.md",
     "DevOps/DevOps Foundation.md",
-    "QA/Defect Management.md",
     "QA/QA.md",
     "ObsidianVault/QA/QA Foundations.md",
     "ObsidianVault/QA",
     "ObsidianVault",
-    "QA/QA Foundations.md",
     "DevOps/Cloud and Infrastructure as Code.md",
     "ObsidianVault/DevOps/CI-CD Pipelines.md",
     "DevOps/CI-CD Pipelines.md",
@@ -224,14 +226,12 @@
     "QA/Test Design Techniques.md",
     "QA/Selenium vs Playwright.md",
     "QA/JS Playwright.md",
-    "QA/Java Playwright.md",
     "QA/Java Selenium.md",
     "QA",
     "DevOps/DevOps.md",
     "DevOps/Monitoring and Observability.md",
     "DevOps/Containers and Orchestration.md",
     "DevOps",
-    "Dev/Dev Foundations.md",
     "Dev/Git Commands.md",
     "Dev/System Design Basics.md",
     "Dev/SQL.md",
