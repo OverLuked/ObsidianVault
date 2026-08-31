@@ -9,6 +9,7 @@
 	- UX/UI Testing
 - Performance and security Validation
 	- Non - Functional Testing
+
 ### Essential Skills
 - Creation of Test Cases
 - Creation of Bug Reports
@@ -124,13 +125,13 @@
 	- Analysis of results
 	- Creation of `test summary results`
 	#### Activities
-		- Evaluate Test completion criteria
-		- Analyze metrics and coverage
-		- Prepare final report
+	- Evaluate Test completion criteria
+	- Analyze metrics and coverage
+	- Prepare final report
 	##### Deliverables
-		- Test Summary Report
-		- Test metrics
-		- Test coverage Report
+	- Test Summary Report
+	- Test metrics
+	- Test coverage Report
 7. Test Closure
 	- Document lessons learned and archive test artifacts
 	#### Activities
@@ -157,10 +158,10 @@
 - Confirms every requirement has test coverage - and flags coverage gaps before execution starts
 - Also traces a failed test back to the requirement and defect it's tied to
 
-| Requirement ID | Requirement             | Test Case ID           | Status |
-| -------------- | ----------------------- | ---------------------- | ------ |
-| REQ_001        | User can register       | TC_REG_001, TC_REG_002 | Pass   |
-| REQ_002        | User can reset password | TC_PWD_001             | Fail   |
+| Requirement ID | Requirement            | Test Case ID        | Status |
+| ---------------- | ------------------------- | ---------------------- | -------- |
+| REQ_001           | User can register          | TC_REG_001, TC_REG_002 | Pass     |
+| REQ_002           | User can reset password     | TC_PWD_001              | Fail     |
 
 ##### Entry & Exit Criteria
 - Entry Criteria -> conditions that must be met before a test phase can start (e.g. test environment ready, build deployed, test cases reviewed)
